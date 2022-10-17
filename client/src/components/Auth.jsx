@@ -23,6 +23,7 @@ const Auth = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(form)
+
     }
 
     const switchMode = () => {
@@ -104,6 +105,7 @@ const Auth = () => {
                              placeholder='password'
                              onChange={handleChange}
                              required
+                             
                              />
                         </div>
                         )}
