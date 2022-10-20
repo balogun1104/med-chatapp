@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('express');
 const cors = require('cors');
 
 const authRoutes = require("./routes/auth.js")
@@ -8,8 +8,10 @@ const PORT = process.env.PORT || 4000;
 require('dotenv').config();
 
 app.use(cors());
+app.options('*', cors());
+app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use(express.urlencoded());
+
 
 app.get('/', (req, res) => {
     res.send('Hello, World')
