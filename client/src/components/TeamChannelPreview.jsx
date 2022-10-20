@@ -23,7 +23,7 @@ const TeamChannelPreview = ({channel, type}) => {
                 <p>{members[0]?.user?.fullName}</p>
             </div>
         )
-}
+ }
 
   return (
     <div className= {
