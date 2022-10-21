@@ -65,6 +65,7 @@ const ChannelListContainer = () => {
             />
           )} 
       />
+
        <ChannelList 
           filters={{}}
           channelRenderFilterFn={ () => {}}
