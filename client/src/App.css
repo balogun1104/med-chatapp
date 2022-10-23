@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #005fff;
+    --primary-color: #445066;
     --primary-color-alpha: #005fff1a;
   }
   
@@ -938,6 +938,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #445066;
+    color: #fff;
+    
   }
   
   .team-channel-list__message {
@@ -965,7 +968,7 @@
     font-size: 13px;
     line-height: 16px;
     height: 16px;
-    color: rgba(255, 255, 255, 0.66);
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
   }
   
