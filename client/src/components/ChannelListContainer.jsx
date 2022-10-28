@@ -20,12 +20,14 @@ const SideBar = ({logout}) => (
         <img src={LogoutIcon} alt="Logout" width='30' />
       </div>
     </div>
+
   </div>
+  
 )
 
 const CompanyHeader = () => (
   <div className="channel-list__header">
-    <p className="channel-list__header__text">Medical Page</p>
+    <p className="channel-list__header__text">Med-Chat</p>
   </div>
 )
 
@@ -52,10 +54,11 @@ const ChannelListContent = ( {  isCreating , setIsCreating, setCreateType, setIs
     window.location.reload(); 
   }
 
+
   const filters = { members: { $in: [client.userID] } }
   return (
     <>
-     <SideBar logout={logOut}/>
+     <SideBar logout={logOut} />
      <div className="channel-list__list__wrapper">
       <CompanyHeader />
       <ChannelSearch />
