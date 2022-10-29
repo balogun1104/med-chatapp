@@ -3,7 +3,8 @@
 <p> Frontend : React.js </p>
 <p> Backend : Node.js </p>
 <p> ThirdParty : Stream.io </p>
-<img src='https://github.com/razak1104/med-chatapp/blob/main/client/src/assets/Screen%20Shot%202022-10-29%20at%2011.06.38.png?raw=true' alt='stream.io'
+<img src='https://github.com/razak1104/med-chatapp/blob/main/client/src/assets/Screen%20Shot%202022-10-29%20at%2011.39.23.png?raw=true' alt='stream.io'/>
+<img src='https://github.com/razak1104/med-chatapp/blob/main/client/src/assets/Screen%20Shot%202022-10-29%20at%2011.06.38.png?raw=true' alt='stream.io'/>
 
 <h3> To Start the Frontend run <strong> npm start </strong>
 <h3> To Start the Backend run <strong>  npm dev </strong>
